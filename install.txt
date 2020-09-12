@@ -1,0 +1,5 @@
+Before you begin
+
+Login to you Ubuntu machine as a sudo user and update the system to the latest packages:
+
+sudo apt update && sudo apt upgrade
