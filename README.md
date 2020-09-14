@@ -5,7 +5,7 @@
 #### 1.Install manual
 [link tutorial by linuxize](https://linuxize.com/post/how-to-deploy-odoo-12-on-ubuntu-18-04/#before-you-begin).
 
-[link tutorial by openerp.com](https://www.getopenerp.com/install-odoo-12-on-ubuntu-18-04/). 
+[link tutorial by getopenerp.com](https://www.getopenerp.com/install-odoo-12-on-ubuntu-18-04/). 
  
 #### 2.Install by Script development
 [Yenthe Script](https://github.com/Yenthe666/InstallScript/tree/12.0).
