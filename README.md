@@ -97,14 +97,18 @@ Deactivate the environment using the following command:
 
 Create a new directory for the custom addons:
 
-```mkdir /opt/odoo12/odoo-custom-addons
+```
+mkdir /opt/odoo12/odoo-custom-addons
 ```
 Switch back to your sudo user:
-`` exit ``
+``` 
+exit
+```
 
 Next, create a configuration file, by copying the included sample configuration file:
 
-```sudo cp /opt/odoo12/odoo/debian/odoo.conf /etc/odoo12.conf
+```
+sudo cp /opt/odoo12/odoo/debian/odoo.conf /etc/odoo12.conf
 ```
 Open the file and edit it as follows:
 
