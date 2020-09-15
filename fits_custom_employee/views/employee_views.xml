@@ -1,0 +1,38 @@
+<odoo>
+  <data>
+
+    <record model="ir.ui.view" id="fits_inherit_employee_custom">
+      <field name="name">Custom Inherite Employee</field>
+      <field name="model">hr.employee</field>
+      <field name="inherit_id" ref="hr.view_employee_form"/>
+      <field name="arch" type="xml">
+        <field name="country_id" position="after">
+        	<field name="nik"/>
+        	<field name="tgl_masuk"/>
+		</field>
+		<field name="children" position="after">
+        	<field name="agama"/>
+		</field>
+		<field name="work_phone" position="after">
+        	<field name="workplace_id"/>
+		</field>
+      </field>
+    </record>
+    
+     <record model="ir.ui.view" id="fits_employee_workplace">
+      <field name="name">Custom Inherite Employee</field>
+      <field name="model">hr.workplace</field>
+      <field name="arch" type="xml">
+        <form string="Workplace">
+        	<group>
+	        	<field name="name"/>
+	        	<field name="note"/>
+        	</group>
+		</form>
+      </field>
+    </record>
+
+
+   
+  </data>
+</odoo>
