@@ -126,3 +126,13 @@ addons_path = /opt/odoo12/odoo/addons,/opt/odoo12/odoo-custom-addons
 
 
 ### Modif your file.conf
+
+
+
+## Additional Install
+
+#### Install Nginx
+[link tutorial by digitalocean](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04).
+
+#### Install Webmin
+[link tutorial by digitalocean](https://www.digitalocean.com/community/tutorials/how-to-install-webmin-on-ubuntu-18-04).
