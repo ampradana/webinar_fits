@@ -127,7 +127,7 @@ addons_path = /opt/odoo12/odoo/addons,/opt/odoo12/odoo-custom-addons
 
 ### Modif your file.conf
 
-
+_Get download file.conf_
 
 ## Additional Install
 
