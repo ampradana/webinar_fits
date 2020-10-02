@@ -136,3 +136,29 @@ _Get download file.conf_
 
 #### Install Webmin
 [link tutorial by digitalocean](https://www.digitalocean.com/community/tutorials/how-to-install-webmin-on-ubuntu-18-04).
+
+
+
+# How to setup Odoo12 Docker and Kubernetes
+
+### Command Docker
+```
+docker login
+
+_put Dockerfile in addons path_
+
+addons_path# docker build -t your/docker-images:tag .
+
+docker images
+
+docker ps
+
+docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo -e POSTGRES_DB=postgres --name db postgres:10
+
+docker pull your/docker-images:tag
+
+docker run -p 8069:8069 --link db:db -d your/docker-images:tag
+
+docker push your/docker-images:tag
+
+```
