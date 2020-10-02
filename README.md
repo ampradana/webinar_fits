@@ -155,6 +155,11 @@ docker ps
 
 docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo -e POSTGRES_DB=postgres --name db postgres:10
 
+docker run -p 8069:8069 --name odoo --link db:db -t odoo
+
+docker stop odoo
+docker start -a odoo
+
 docker pull your/docker-images:tag
 
 docker run -p 8069:8069 --link db:db -d your/docker-images:tag
