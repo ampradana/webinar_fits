@@ -169,4 +169,8 @@ docker run -p 8069:8069 --link db:db -d your/docker-images:tag
 
 docker push your/docker-images:tag
 
+docker cp . odoo14:/mnt/extra-addons
+
+docker exec -u root -it odoo14 /bin/bash
+
 ```
