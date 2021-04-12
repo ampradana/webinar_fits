@@ -10,6 +10,9 @@
 #### 2.Install by Script development
 [Yenthe Script](https://github.com/Yenthe666/InstallScript/tree/12.0).
 
+#### 3.Install by Script development Odoo version 12 to Ubuntu 20.04 (LTS)
+[Jerichoruz Script](https://github.com/jerichoruz/odoo-instal-sh).
+
 
 ## Requirements
  - python 3.7 for odoo12
